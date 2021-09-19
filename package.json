@@ -1,0 +1,51 @@
+{
+  "name": "@animiru/singularity",
+  "version": "1.0.0",
+  "description": "A unique identifier system created by a singularity on the Animiru backend team.",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": [
+      {
+        "require": "./lib/index.js",
+        "import": "./esm/singularity.mjs"
+      },
+      "./lib/index.js"
+    ],
+    "./esm": "./esm/singularity.mjs"
+  },
+  "files": [
+    "lib",
+    "types",
+    "esm"
+  ],
+  "scripts": {
+    "build": "tsc && npm run gen:esm",
+    "gen:esm": "gen-esm-wrapper ./lib/index.js ./esm/singularity.mjs",
+    "lint": "eslint src/**",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Animiru/singularity.git"
+  },
+  "keywords": [
+    "singularity",
+    "id",
+    "animiru"
+  ],
+  "author": "NobUwU (https://github.com/NobUwU)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Animiru/singularity/issues"
+  },
+  "homepage": "https://github.com/Animiru/singularity#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.9",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "gen-esm-wrapper": "^1.1.2",
+    "typescript": "^4.4.2"
+  }
+}

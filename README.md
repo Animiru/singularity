@@ -1,6 +1,6 @@
 <div align="center" width="100">
   <br />
-  <img src="./banner.png" alt="logo... get better internet nerd"/>
+  <img src="./public/banner.png" alt="logo... get better internet nerd"/>
   <br />
   <br />
   <br />
