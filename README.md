@@ -9,4 +9,5 @@
   <p>On that note, you as a user of this extensive platform are a singularity and we use yet another singularity to identify you and all singularities you generate.</p>
   <p><i>-- A unique identifier system created by a singularity on
 the Animiru backend team.</i></p>
+  <p><i>Inspired by <a href="https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake">Twitter's Snowflake</a></i></p>
 </div>
