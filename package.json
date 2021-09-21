@@ -1,5 +1,5 @@
 {
-  "name": "singularities",
+  "name": "@animiru/singularity",
   "version": "1.0.0",
   "description": "A unique identifier system created by a singularity on the Animiru backend team.",
   "main": "lib/index.js",
