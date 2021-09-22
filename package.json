@@ -17,7 +17,8 @@
   "files": [
     "lib",
     "types",
-    "esm"
+    "esm",
+    "methods.md"
   ],
   "scripts": {
     "build": "tsc && npm run gen:esm",
